@@ -1,0 +1,163 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carewell | Smart Today Secure Tomorrow</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:'Poppins',sans-serif;
+      background:#f4f8ff;
+      color:#222;
+    }
+    header{
+      position:sticky;top:0;z-index:10;
+      background:linear-gradient(90deg,#0a6cff,#2bb673);
+      padding:15px 50px;
+      display:flex;align-items:center;justify-content:space-between;
+    }
+    header img{height:55px}
+    nav a{
+      color:#fff;text-decoration:none;margin-left:25px;font-weight:500
+    }
+    nav a:hover{text-decoration:underline}.hero{
+  min-height:90vh;
+  display:grid;grid-template-columns:1fr 1fr;
+  align-items:center;gap:40px;
+  padding:60px 80px;
+  background:linear-gradient(135deg,#eaf1ff,#ffffff);
+}
+.hero h1{font-size:48px;color:#0a6cff;margin-bottom:10px}
+.hero span{color:#2bb673}
+.hero p{font-size:18px;line-height:1.7;color:#444}
+.hero button{
+  margin-top:25px;
+  padding:15px 34px;
+  font-size:16px;
+  border:none;border-radius:30px;
+  background:linear-gradient(90deg,#0a6cff,#2bb673);
+  color:white;cursor:pointer;
+  box-shadow:0 10px 25px rgba(0,0,0,0.15)
+}
+.hero img{width:100%;max-width:450px}
+
+.sections{padding:80px 70px;background:#fff}
+.sections h2{
+  text-align:center;font-size:36px;margin-bottom:50px;color:#0a6cff
+}
+
+.cards{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:30px
+}
+.card{
+  background:white;
+  padding:30px;border-radius:18px;
+  box-shadow:0 12px 30px rgba(0,0,0,0.1);
+  transition:0.3s
+}
+.card:hover{transform:translateY(-8px)}
+.card h3{color:#2bb673;margin-bottom:15px}
+
+.why{
+  background:linear-gradient(135deg,#0a6cff,#2bb673);
+  color:white
+}
+.why .card{background:rgba(255,255,255,0.15);color:white}
+
+footer{
+  background:#081b3a;color:#fff;text-align:center;
+  padding:30px
+}
+
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr;padding:40px}
+  header{padding:15px 25px}
+}
+
+  </style>
+</head>
+<body><header>
+  <img src="rahul.jpeg" alt="Carewell Logo">
+  <nav>
+    <a href="#">Home</a>
+    <a href="#plans">Plans</a>
+    <a href="#why">Why Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header><section class="hero">
+  <div>
+    <h1>Your Health,<br><span>Our Priority</span></h1>
+    <p>
+      Carewell Health Insurance brings smart, affordable and reliable health coverage for families,
+      young professionals and senior citizens. Plan today, stay secure tomorrow.
+    </p>
+    <button>Check Plans Now</button>
+  </div>
+  <div>
+    <img src="rahul.jpeg" alt="Carewell Family" >
+
+
+  </div>
+</section><section class="sections" id="plans">
+  <h2>Insurance Plans Made For You</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>👨‍👩‍👧 Family Plan</h3>
+      <p>One single policy covering your entire family with cashless hospitalization benefits.</p>
+    </div>
+    <div class="card">
+      <h3>💼 Young Professional</h3>
+      <p>Low premium, high coverage plans specially designed for career starters.</p>
+    </div>
+    <div class="card">
+      <h3>👴 Senior Citizen</h3>
+      <p>Extra care and protection for elders with tailored health benefits.</p>
+    </div>
+  </div>
+</section><section class="sections why" id="why">
+  <h2>Why Choose Carewell?</h2>
+  <div class="cards">
+    <div class="card">✔ Trusted Insurance Partner</div>
+    <div class="card">✔ 24x7 Customer Support</div>
+    <div class="card">✔ Cashless Hospital Network</div>
+    <div class="card">✔ Transparent & Affordable</div>
+  </div>
+</section><section class="sections" id="features">
+  <h2>Smart Features</h2>
+  <div class="cards">
+    <div class="card">📄 Easy Policy Management<br><small>All documents online, anytime access</small></div>
+    <div class="card">⚡ Instant Claim Assistance<br><small>Fast & hassle-free claim support</small></div>
+    <div class="card">🏥 10,000+ Hospitals<br><small>Wide cashless hospital network</small></div>
+    <div class="card">📞 Dedicated Advisor<br><small>Personal support for every customer</small></div>
+  </div>
+</section><section class="sections" id="info">
+  <h2>Know Your Insurance</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>How It Works?</h3>
+      <p>Select a plan → Get covered → Avail cashless treatment → Simple claim settlement.</p>
+    </div>
+    <div class="card">
+      <h3>Who Should Buy?</h3>
+      <p>Families, working professionals, freelancers, and senior citizens looking for security.</p>
+    </div>
+    <div class="card">
+      <h3>What We Cover?</h3>
+      <p>Hospitalization, emergency care, pre & post hospitalization expenses.</p>
+    </div>
+  </div>
+</section><section class="sections" id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="cards">
+    <div class="card"><b>Is Carewell trusted?</b><br>Yes, we focus on transparency and customer-first service.</div>
+    <div class="card"><b>Is cashless available?</b><br>Yes, across our partner hospital network.</div>
+    <div class="card"><b>Can I upgrade my plan?</b><br>Yes, plans are flexible and upgrade-friendly.</div>
+  </div>
+</section><footer id="contact">
+  <p>© 2026 Carewell Health Insurance</p>
+  <p>Smart Today • Secure Tomorrow</p>
+</footer></body>
+</html>
